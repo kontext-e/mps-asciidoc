@@ -401,5 +401,539 @@
     <node concept="2iph4c" id="2KALeuYo2$b" role="2ip1qD" />
     <node concept="2iph4c" id="2KALeuYo2$c" role="2ip1qD" />
   </node>
+  <node concept="2i6oF5" id="2KALeuYo2AU">
+    <property role="TrG5h" value="05_building_block_view.adoc" />
+    <node concept="2ioXgU" id="2KALeuYo2AV" role="2ip1qD">
+      <property role="2ioXnO" value="section-building-block-view" />
+    </node>
+    <node concept="2ioOQi" id="2KALeuYo2AW" role="2ip1qD">
+      <property role="2ioOO9" value="1" />
+      <property role="2ioOP9" value="Building Block View" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2AX" role="2ip1qD" />
+    <node concept="2iph4c" id="2KALeuYo2AY" role="2ip1qD" />
+    <node concept="2io3ne" id="2KALeuYo2AZ" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2B0" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2B1" role="2ip1qD">
+      <node concept="2irfz6" id="2KALeuYo2B2" role="2iomX5">
+        <property role="2ir8iC" value="Contents" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2B3" role="2iomX5">
+        <property role="2iowpZ" value="Static decomposition of the system into building blocks (modules, components, subsystems, subsidiary systems, classes, interfaces, packages, libraries, frameworks, layers, partitions, tiers, functions, macros, operations, data structures, …) and the relationships thereof." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2B4" role="2iomX5" />
+      <node concept="2irfz6" id="2KALeuYo2B5" role="2iomX5">
+        <property role="2ir8iC" value="Motivation" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2B6" role="2iomX5">
+        <property role="2iowpZ" value="This is the most important view, that must be part of each architecture documentation. In building construction this would be the floor plan." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2B7" role="2iomX5" />
+      <node concept="2irfz6" id="2KALeuYo2B8" role="2iomX5">
+        <property role="2ir8iC" value="Form" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2B9" role="2iomX5">
+        <property role="2iowpZ" value="The building block view is a hierarchical collection of black box and white box descriptions as shown in the following diagram:" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2Ba" role="2iomX5" />
+      <node concept="2irfz6" id="2KALeuYo2Bb" role="2iomX5">
+        <property role="2ir8iC" value="Building Blocks overview" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Bc" role="2iomX5">
+        <property role="2iowpZ" value="image::05_building_blocks.png[&quot;Bulding blocks overview&quot;, align=&quot;center&quot;, scaledwidth=&quot;75%&quot;]" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2Bd" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2Be" role="2iomX5">
+        <property role="2iowpZ" value="*Level 1* contains the white box description of the overall system (system" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Bf" role="2iomX5">
+        <property role="2iowpZ" value="under development/SUD) made up of black box descriptions of the" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Bg" role="2iomX5">
+        <property role="2iowpZ" value="system’s building blocks." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2Bh" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2Bi" role="2iomX5">
+        <property role="2iowpZ" value="*Level 2* zooms into the building blocks of Level 1 and is thus made up of" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Bj" role="2iomX5">
+        <property role="2iowpZ" value="the white box descriptions of all building blocks of Level 1 together" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Bk" role="2iomX5">
+        <property role="2iowpZ" value="with the black box descriptions of the building blocks of Level 2." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2Bl" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2Bm" role="2iomX5">
+        <property role="2iowpZ" value="*Level 3* zooms into the building blocks of Level 2, etc." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2Bn" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2Bo" role="2iomX5">
+        <property role="2iowpZ" value="The section is structured as follows:" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2Bp" role="2iomX5" />
+      <node concept="2irfz6" id="2KALeuYo2Bq" role="2iomX5">
+        <property role="2ir8iC" value="White Box Template" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Br" role="2iomX5">
+        <property role="2iowpZ" value="Contains multiple building blocks with corresponding black box descriptions." />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Bs" role="2iomX5">
+        <property role="2iowpZ" value="One or more black box templates:" />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Bt" role="2iomX5">
+        <property role="2iowpZ" value="Each building block appearing in the white box template should be described as follows:" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2Bu" role="2iomX5" />
+      <node concept="2iru$e" id="2KALeuYo2Bv" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Purpose / Responsibility:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2Bw" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Interface(s):" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2Bx" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Implemented requirements:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2By" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Variability:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2Bz" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Performance attributes:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2B$" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Repository / Files:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2B_" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Other administrative information: Author, Version, Date, Revision History" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2BA" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Open issues:" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2BB" role="2iomX5" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2BC" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2BD" role="2ip1qD">
+      <property role="2ioOO9" value="2" />
+      <property role="2ioOP9" value="Level 1" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2BE" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2BF" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2BG" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2BH" role="2iomX5">
+        <property role="2iowpZ" value="Here you describe the white box view of level 1 according to the white box template. The structure is given below." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2BI" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2BJ" role="2iomX5">
+        <property role="2iowpZ" value="The overview diagram describes the inner structure of the overall system in terms of building blocks 1 – n, as well as their relationships and interdependencies." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2BK" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2BL" role="2iomX5">
+        <property role="2iowpZ" value="It is also useful to list the most important reasons that led to this structure, esp. as relevant to the interdependencies / relationships among the building blocks at this level." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2BM" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2BN" role="2iomX5">
+        <property role="2iowpZ" value="You should also mention rejected alternatives incl. reasons for their rejection." />
+      </node>
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2BO" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2BP" role="2ip1qD">
+      <property role="2iowpZ" value="The following diagram shows the main building blocks of the system and their interdependencies:" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2BQ" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2BR" role="2ip1qD">
+      <property role="2iowpZ" value="&lt;insert overview diagram here&gt;" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2BS" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2BT" role="2ip1qD">
+      <property role="2iowpZ" value="Comments regarding structure and interdependencies at Level 1:" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2BU" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2BV" role="2ip1qD">
+      <property role="2ioOO9" value="3" />
+      <property role="2ioOP9" value="Building Block Name 1 (Black Box Description)" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2BW" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2BX" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2BY" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2BZ" role="2iomX5">
+        <property role="2iowpZ" value="Structure according to black box template:" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2C0" role="2iomX5" />
+      <node concept="2iru$e" id="2KALeuYo2C1" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Purpose / Responsibility:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2C2" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Interface(s):" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2C3" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Implemented requirements:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2C4" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Variability:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2C5" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Performance attributes:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2C6" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Repository / Files:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2C7" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Other administrative information: Author, Version, Date, Revision History" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2C8" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Open issues:" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2C9" role="2iomX5" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Ca" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2Cb" role="2ip1qD">
+      <property role="2iowpZ" value="&lt;insert the building block’s black box template here&gt;" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Cc" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Cd" role="2ip1qD">
+      <property role="2ioOO9" value="3" />
+      <property role="2ioOP9" value="Building Block Name 2 (Black Box Description)" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Ce" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2Cf" role="2ip1qD">
+      <property role="2iowpZ" value="&lt;insert the building block’s black box template here&gt;" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Cg" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Ch" role="2ip1qD">
+      <property role="2ioOO9" value="3" />
+      <property role="2ioOP9" value="..." />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Ci" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2Cj" role="2ip1qD">
+      <property role="2iowpZ" value="&lt;insert the building block’s black box template here&gt;" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Ck" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Cl" role="2ip1qD">
+      <property role="2ioOO9" value="3" />
+      <property role="2ioOP9" value="Building Block Name n (Black Box Description)" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Cm" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2Cn" role="2ip1qD">
+      <property role="2iowpZ" value="&lt;insert the building block’s black box template here&gt;" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Co" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Cp" role="2ip1qD">
+      <property role="2ioOO9" value="3" />
+      <property role="2ioOP9" value="Open Issues" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Cq" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Cr" role="2ip1qD">
+      <property role="2ioOO9" value="2" />
+      <property role="2ioOP9" value="Level 2" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Cs" role="2ip1qD" />
+    <node concept="2io3ne" id="2KALeuYo2Ct" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2Cu" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2Cv" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2Cw" role="2iomX5">
+        <property role="2iowpZ" value="Describe all building blocks comprising level 1 as a series of white box templates. The structure is given below for three building blocks and should be duplicated as needed." />
+      </node>
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Cx" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Cy" role="2ip1qD">
+      <property role="2ioOO9" value="3" />
+      <property role="2ioOP9" value="Building Block Name 1 (White Box Description)" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Cz" role="2ip1qD" />
+    <node concept="2io3ne" id="2KALeuYo2C$" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2C_" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2CA" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2CB" role="2iomX5">
+        <property role="2iowpZ" value="Shows the inner workings of the building block in form of a diagrams with local building blocks 1 – n, as well as their relationships and interdependencies." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2CC" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2CD" role="2iomX5">
+        <property role="2iowpZ" value="It is also useful to list the most important reasons that led to this structure, esp. as relevant to the interdependencies / relationships among the building blocks at this level." />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2CE" role="2iomX5" />
+      <node concept="2iowq1" id="2KALeuYo2CF" role="2iomX5">
+        <property role="2iowpZ" value="You should also mention rejected alternatives incl. reasons for their rejection." />
+      </node>
+    </node>
+    <node concept="2iowq1" id="2KALeuYo2CG" role="2ip1qD">
+      <property role="2iowpZ" value="&lt;insert diagram of building block 1 here&gt;" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2CH" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2CI" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 1.1 (Black Box Description)" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2CJ" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2CK" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2CL" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2CM" role="2iomX5">
+        <property role="2iowpZ" value="Structure according to black box template:" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2CN" role="2iomX5" />
+      <node concept="2iru$e" id="2KALeuYo2CO" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Purpose / Responsibility:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2CP" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Interface(s):" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2CQ" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Implemented requirements:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2CR" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Variability:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2CS" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Performance attributes:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2CT" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Repository / Files:" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2CU" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Other administrative information: Author, Version, Date, Revision History" />
+      </node>
+      <node concept="2iru$e" id="2KALeuYo2CV" role="2iomX5">
+        <property role="2iruIS" value="*" />
+        <property role="2iruEZ" value="Open issues:" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2CW" role="2iomX5" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2CX" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2CY" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 1.2 (Black Box Description)" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2CZ" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2D0" role="2ip1qD">
+      <property role="2iowpZ" value="Structure according to black box template" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2D1" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2D2" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="..." />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2D3" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2D4" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 1.n (Black Box Description)" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2D5" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2D6" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2D7" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2D8" role="2iomX5">
+        <property role="2iowpZ" value="Structure according to black box template" />
+      </node>
+      <node concept="2iph4c" id="2KALeuYo2D9" role="2iomX5" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Da" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Db" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Description of Relationships" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Dc" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Dd" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Open Issues" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2De" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Df" role="2ip1qD">
+      <property role="2ioOO9" value="3" />
+      <property role="2ioOP9" value="Building Block Name 2 (White Box Description)" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Dg" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2Dh" role="2ip1qD">
+      <property role="2iowpZ" value="…" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Di" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2Dj" role="2ip1qD">
+      <property role="2iowpZ" value="&lt;insert diagram of building block 2 here&gt;" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Dk" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Dl" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 2.1 (Black Box Description)" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Dm" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2Dn" role="2ip1qD">
+      <property role="2iowpZ" value="Structure according to black box template" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Do" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Dp" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 2.2 (Black Box Description)" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2Dq" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2Dr" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2Ds" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2Dt" role="2iomX5">
+        <property role="2iowpZ" value="Structure according to black box template" />
+      </node>
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Du" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Dv" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="..." />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2Dw" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2Dx" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 2.n (Black Box Description)" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2Dy" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2Dz" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2D$" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2D_" role="2iomX5">
+        <property role="2iowpZ" value="Structure according to black box template" />
+      </node>
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2DA" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2DB" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Description of Relationships" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2DC" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2DD" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Open Issues" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2DE" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2DF" role="2ip1qD">
+      <property role="2ioOO9" value="3" />
+      <property role="2ioOP9" value="Building Block Name 3 (White Box Description)" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2DG" role="2ip1qD" />
+    <node concept="2irfz6" id="2KALeuYo2DH" role="2ip1qD">
+      <property role="2ir8iC" value=".." />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2DI" role="2ip1qD" />
+    <node concept="2iowq1" id="2KALeuYo2DJ" role="2ip1qD">
+      <property role="2iowpZ" value="&lt;insert diagram of building block 3 here&gt;" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2DK" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2DL" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 3.1 (Black Box Description)" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2DM" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2DN" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2DO" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2DP" role="2iomX5">
+        <property role="2iowpZ" value="Structure according to black box template" />
+      </node>
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2DQ" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2DR" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 3.2 (Black Box Description)" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2DS" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2DT" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2DU" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2DV" role="2iomX5">
+        <property role="2iowpZ" value="Structure according to black box template" />
+      </node>
+    </node>
+    <node concept="2ioOQi" id="2KALeuYo2DW" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="..." />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2DX" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2DY" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Building Block Name 3.n (Black Box Description)" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2DZ" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2E0" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2E1" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2E2" role="2iomX5">
+        <property role="2iowpZ" value="Structure according to black box template" />
+      </node>
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2E3" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2E4" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Description of Relationships" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2E5" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2E6" role="2ip1qD">
+      <property role="2ioOO9" value="4" />
+      <property role="2ioOP9" value="Open Issues" />
+    </node>
+    <node concept="2iph4c" id="2KALeuYo2E7" role="2ip1qD" />
+    <node concept="2ioOQi" id="2KALeuYo2E8" role="2ip1qD">
+      <property role="2ioOO9" value="2" />
+      <property role="2ioOP9" value="Level 3" />
+    </node>
+    <node concept="2io3ne" id="2KALeuYo2E9" role="2ip1qD">
+      <node concept="2io3ms" id="2KALeuYo2Ea" role="2io3rR">
+        <property role="2io3kF" value="role=&quot;arc42help&quot;" />
+      </node>
+    </node>
+    <node concept="2iomY5" id="2KALeuYo2Eb" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYo2Ec" role="2iomX5">
+        <property role="2iowpZ" value="Describe all building blocks comprising level 2 as a series of white box templates. The structure is identical to the structure of level 2. Duplicate the corresponding sub-sections as needed." />
+      </node>
+      <node concept="2iowq1" id="2KALeuYo2Ed" role="2iomX5">
+        <property role="2iowpZ" value="Simply use this section structure for any additional levels you would like to describe." />
+      </node>
+    </node>
+  </node>
 </model>
 
