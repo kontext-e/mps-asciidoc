@@ -76,6 +76,7 @@
   <node concept="1TIwiD" id="2KALeuYgXnF">
     <property role="TrG5h" value="EmptyLine" />
     <property role="R4oN_" value="empty line" />
+    <property role="34LRSv" value="Empty Line" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2KALeuYgXog" role="PzmwI">
       <ref role="PrY4T" node="2KALeuYgH2N" resolve="ILine" />
@@ -205,6 +206,18 @@
     <property role="R4oN_" value="Example Block" />
     <ref role="1TJDcQ" node="2KALeuYhUGU" resolve="DelimitedBlock" />
     <node concept="1TJgyj" id="2KALeuYjh90" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contents" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2KALeuYgH2N" resolve="ILine" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2KALeuYpmJe">
+    <property role="TrG5h" value="ListingBlock" />
+    <property role="34LRSv" value="----" />
+    <property role="R4oN_" value="Listing Block" />
+    <ref role="1TJDcQ" node="2KALeuYhUGU" resolve="DelimitedBlock" />
+    <node concept="1TJgyj" id="2KALeuYpmTS" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="contents" />
       <property role="20lbJX" value="0..n" />
