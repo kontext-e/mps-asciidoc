@@ -224,5 +224,17 @@
       <ref role="20lvS9" node="2KALeuYgH2N" resolve="ILine" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5OAOh4ScKlm">
+    <property role="TrG5h" value="LiteralBlock" />
+    <property role="34LRSv" value="...." />
+    <property role="R4oN_" value="Literal Block" />
+    <ref role="1TJDcQ" node="2KALeuYhUGU" resolve="DelimitedBlock" />
+    <node concept="1TJgyj" id="5OAOh4SdZey" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contents" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2KALeuYgH2N" resolve="ILine" />
+    </node>
+  </node>
 </model>
 

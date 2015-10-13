@@ -11,9 +11,6 @@
       <concept id="3181446686392143394" name="de.kontext_e.asciidoc.structure.AsciidocDocument" flags="ng" index="2i6oF5">
         <child id="3181446686392373838" name="contents" index="2ip1qD" />
       </concept>
-      <concept id="3181446686394641358" name="de.kontext_e.asciidoc.structure.ListingBlock" flags="ng" index="2igUWD">
-        <child id="3181446686394642040" name="contents" index="2igUEv" />
-      </concept>
       <concept id="3181446686392643963" name="de.kontext_e.asciidoc.structure.AttributeValue" flags="ng" index="2io3ms">
         <property id="3181446686392644044" name="value" index="2io3kF" />
       </concept>
@@ -46,6 +43,9 @@
       <concept id="3181446686392921577" name="de.kontext_e.asciidoc.structure.BulletedListItem" flags="ng" index="2iru$e">
         <property id="3181446686392921688" name="text" index="2iruEZ" />
         <property id="3181446686392921951" name="asterisks" index="2iruIS" />
+      </concept>
+      <concept id="6712282166529819990" name="de.kontext_e.asciidoc.structure.LiteralBlock" flags="ng" index="1_5th7">
+        <child id="6712282166530143138" name="contents" index="1_4iaN" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -432,24 +432,24 @@
     </node>
     <node concept="2io3ne" id="2KALeuYpmll" role="2ip1qD">
       <node concept="2io3ms" id="2KALeuYpmmZ" role="2io3rR">
-        <property role="2io3kF" value="&quot;plantuml&quot;" />
+        <property role="2io3kF" value="plantuml" />
       </node>
       <node concept="2io3ms" id="2KALeuYpmqL" role="2io3rR">
-        <property role="2io3kF" value="&quot;level1.png&quot;" />
+        <property role="2io3kF" value="level1" />
       </node>
       <node concept="2io3ms" id="2KALeuYpmu_" role="2io3rR">
-        <property role="2io3kF" value="&quot;png&quot;" />
+        <property role="2io3kF" value="png" />
       </node>
     </node>
-    <node concept="2igUWD" id="2KALeuYqiqv" role="2ip1qD">
-      <node concept="2iowq1" id="2KALeuYqixG" role="2igUEv">
+    <node concept="1_5th7" id="5OAOh4Sf3Uq" role="2ip1qD">
+      <node concept="2iowq1" id="2KALeuYqixG" role="1_4iaN">
         <property role="2iowpZ" value="package de.kontext_e.jqassistant.plugin.plantuml.scanner {}" />
       </node>
-      <node concept="2iowq1" id="2KALeuYqixO" role="2igUEv">
+      <node concept="2iowq1" id="2KALeuYqixO" role="1_4iaN">
         <property role="2iowpZ" value="package de.kontext_e.jqassistant.plugin.plantuml.store.descriptor {}" />
       </node>
-      <node concept="2iph4c" id="2KALeuYqi_Q" role="2igUEv" />
-      <node concept="2iowq1" id="2KALeuYqiA7" role="2igUEv">
+      <node concept="2iph4c" id="2KALeuYqi_Q" role="1_4iaN" />
+      <node concept="2iowq1" id="2KALeuYqiA7" role="1_4iaN">
         <property role="2iowpZ" value="de.kontext_e.jqassistant.plugin.plantuml.scanner --&gt; de.kontext_e.jqassistant.plugin.plantuml.store.descriptor" />
       </node>
     </node>
