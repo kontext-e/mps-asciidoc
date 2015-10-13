@@ -154,6 +154,12 @@
     <property role="R5$K2" value="false" />
     <property role="34LRSv" value="block" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5OAOh4Sf57W" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contents" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2KALeuYgH2N" resolve="ILine" />
+    </node>
     <node concept="PrWs8" id="2KALeuYhUHv" role="PzmwI">
       <ref role="PrY4T" node="2KALeuYgH2N" resolve="ILine" />
     </node>
@@ -163,12 +169,6 @@
     <property role="34LRSv" value="****" />
     <property role="R4oN_" value="Sidebar Block" />
     <ref role="1TJDcQ" node="2KALeuYhUGU" resolve="DelimitedBlock" />
-    <node concept="1TJgyj" id="2KALeuYhUIy" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="contents" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2KALeuYgH2N" resolve="ILine" />
-    </node>
   </node>
   <node concept="1TIwiD" id="2KALeuYizKx">
     <property role="TrG5h" value="BlockTitle" />
@@ -205,36 +205,18 @@
     <property role="34LRSv" value="====" />
     <property role="R4oN_" value="Example Block" />
     <ref role="1TJDcQ" node="2KALeuYhUGU" resolve="DelimitedBlock" />
-    <node concept="1TJgyj" id="2KALeuYjh90" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="contents" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2KALeuYgH2N" resolve="ILine" />
-    </node>
   </node>
   <node concept="1TIwiD" id="2KALeuYpmJe">
     <property role="TrG5h" value="ListingBlock" />
     <property role="34LRSv" value="----" />
     <property role="R4oN_" value="Listing Block" />
     <ref role="1TJDcQ" node="2KALeuYhUGU" resolve="DelimitedBlock" />
-    <node concept="1TJgyj" id="2KALeuYpmTS" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="contents" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2KALeuYgH2N" resolve="ILine" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5OAOh4ScKlm">
     <property role="TrG5h" value="LiteralBlock" />
     <property role="34LRSv" value="...." />
     <property role="R4oN_" value="Literal Block" />
     <ref role="1TJDcQ" node="2KALeuYhUGU" resolve="DelimitedBlock" />
-    <node concept="1TJgyj" id="5OAOh4SdZey" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="contents" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2KALeuYgH2N" resolve="ILine" />
-    </node>
   </node>
 </model>
 
